@@ -13,3 +13,6 @@ C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp
 C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\obj\Debug\Issue1Sample.csprojResolveAssemblyReference.cache
 C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\obj\Debug\Issue1Sample.exe
 C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\obj\Debug\Issue1Sample.pdb
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GA-Project\GA-Project\Samples\Issue1Sample\Issue1Sample\bin\Debug\Issue1Sample.exe.config
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GA-Project\GA-Project\Samples\Issue1Sample\Issue1Sample\obj\Debug\Issue1Sample.exe
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GA-Project\GA-Project\Samples\Issue1Sample\Issue1Sample\obj\Debug\Issue1Sample.pdb
