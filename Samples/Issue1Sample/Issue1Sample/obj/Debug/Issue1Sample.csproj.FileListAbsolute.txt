@@ -1,0 +1,15 @@
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\bin\Debug\Issue1Sample.exe.config
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\bin\Debug\Issue1Sample.exe
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\bin\Debug\Issue1Sample.pdb
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\bin\Debug\GeneticSharp.Domain.dll
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\bin\Debug\GeneticSharp.Infrastructure.Framework.dll
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\bin\Debug\HelperSharp.dll
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\bin\Debug\GeneticSharp.Domain.pdb
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\bin\Debug\GeneticSharp.Domain.xml
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\bin\Debug\GeneticSharp.Infrastructure.Framework.pdb
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\bin\Debug\GeneticSharp.Infrastructure.Framework.xml
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\bin\Debug\HelperSharp.pdb
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\bin\Debug\HelperSharp.xml
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\obj\Debug\Issue1Sample.csprojResolveAssemblyReference.cache
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\obj\Debug\Issue1Sample.exe
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\Samples\Issue1Sample\Issue1Sample\obj\Debug\Issue1Sample.pdb

@@ -1,0 +1,12 @@
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\GeneticSharp.Domain\bin\Debug\GeneticSharp.Domain.xml
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\GeneticSharp.Domain\bin\Debug\GeneticSharp.Domain.dll
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\GeneticSharp.Domain\bin\Debug\GeneticSharp.Domain.pdb
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\GeneticSharp.Domain\bin\Debug\GeneticSharp.Infrastructure.Framework.dll
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\GeneticSharp.Domain\bin\Debug\HelperSharp.dll
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\GeneticSharp.Domain\bin\Debug\GeneticSharp.Infrastructure.Framework.pdb
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\GeneticSharp.Domain\bin\Debug\GeneticSharp.Infrastructure.Framework.xml
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\GeneticSharp.Domain\bin\Debug\HelperSharp.pdb
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\GeneticSharp.Domain\bin\Debug\HelperSharp.xml
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\GeneticSharp.Domain\obj\Debug\GeneticSharp.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\GeneticSharp.Domain\obj\Debug\GeneticSharp.Domain.dll
+C:\Users\Alejandro\Documents\Universidad\Penultimo Trimestre\IA2\GA\GeneticSharp-master\src\GeneticSharp.Domain\obj\Debug\GeneticSharp.Domain.pdb
