@@ -8,7 +8,7 @@ public class Hello1
 {
    public static void Main()
    {
-   		string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Victor Suniaga\Desktop\Ene-Mar 2016\Inteligencia Artificial\Tarea 3\Create\Datos.txt");
+   		string[] lines = System.IO.File.ReadAllLines(@".\Datos.txt");
         string[] matriz = new string[690];
         int i = 0;
         int j,k,l;
