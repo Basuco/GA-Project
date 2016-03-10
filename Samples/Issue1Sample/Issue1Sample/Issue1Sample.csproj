@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Issue1Chromosome.cs" />
+    <Compile Include="Issue1Crossover.cs" />
     <Compile Include="Issue1Fitness.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

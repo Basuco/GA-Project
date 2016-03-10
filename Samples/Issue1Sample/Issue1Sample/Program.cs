@@ -377,7 +377,7 @@ namespace Issue1Sample
             }
 
             var selection = new EliteSelection();
-            var crossover = new OnePointCrossover(0);
+            var crossover = new Issue1Crossover(0);
             var mutation = new UniformMutation(true);
             var fitness = new Issue1Fitness(matriz);
             var chromosome = new Issue1Chromosome(63);
