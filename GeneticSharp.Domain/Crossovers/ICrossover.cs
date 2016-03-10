@@ -17,6 +17,16 @@ namespace GeneticSharp.Domain.Crossovers
     /// </summary>
     public interface ICrossover : IChromosomeOperator
     {
+        #region Constructors
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ICrossover"/> class.
+        /// </summary>
+        public ICrossover()
+            : base(2, 2)
+        {
+            IsOrdered = false;
+        }
+        #endregion
         #region Properties
         /// <summary>
         /// Gets the number of parents need for cross.
@@ -43,7 +53,49 @@ namespace GeneticSharp.Domain.Crossovers
         /// </summary>
         /// <param name="parents">The parents chromosomes.</param>
         /// <returns>The offspring (children) of the parents.</returns>
-        IList<IChromosome> Cross(IList<IChromosome> parents);
+        protected override IList<IChromosome> Cross(IList<IChromosome> parents)
+        {
+            var parent1 = parents[0];
+            var parent2 = parents[1];
+
+            int longitudParent1 = parent1.getLength();
+            int longitudParent2 = parent2.getLength();
+
+
+            var parent1Point = RandomizationProvider.Current.GetInt(0, 62) + 1;
+            var random = RandomizationProvider.Current.GetInt(0, parent1.Length / 63);
+            var parent2Point = parent1Point + 63 * random;
+            var offspring2;
+            if ((longitudParent1 == 63)&(longitudParent2 == 63))
+            {
+                offspring2 = parent1.CreateNew();
+                offspring2.Resize(126);
+                offspring2.ReplaceGenes(0, parent1.GetGenes().ToArray());
+                offspring2.ReplaceGenes(63, parent2.GetGenes().ToArray());
+
+            }
+            else
+            {
+                offspring2 = CreateOffspring(parent2, parent1, parent2Point, parent1Point);
+            }
+            // The minium swap point is 1 to safe generate a gene with at least two genes.
+
+            var offspring1 = CreateOffspring(parent1, parent2, parent1Point, parent2Point);
+            
+
+            return new List<IChromosome>() { offspring1, offspring2 };
+        }
+
+        private static IChromosome CreateOffspring(IChromosome leftParent, IChromosome rightParent, int leftParentPoint, int rightParentPoint)
+        {
+            var offspring = leftParent.CreateNew();
+
+            offspring.Resize(leftParentPoint + (rightParent.Length - rightParentPoint));
+            offspring.ReplaceGenes(0, leftParent.GetGenes().Take(leftParentPoint).ToArray());
+            offspring.ReplaceGenes(leftParentPoint, rightParent.GetGenes().Skip(rightParentPoint).ToArray());
+
+            return offspring;
+        }
         #endregion
     }
 }

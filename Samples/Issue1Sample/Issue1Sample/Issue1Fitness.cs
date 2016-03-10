@@ -1,4 +1,5 @@
-﻿using GeneticSharp.Domain.Chromosomes;
+﻿using System;
+using GeneticSharp.Domain.Chromosomes;
 using GeneticSharp.Domain.Fitnesses;
 
 namespace Issue1Sample
@@ -7,7 +8,7 @@ namespace Issue1Sample
     {
 
         #region Fields
-        private string[] matrizEjemplos;
+        private string[] matriz;
         #endregion
 
         #region Constructors
@@ -29,52 +30,51 @@ namespace Issue1Sample
         /// <returns>
         /// The fitness of the chromosome
         /// </returns>
-        public double Evaluate(IChromosome chromosome)
+        public double Evaluate(IChromosome chromo)
         {
             int i = 0;
             int fit = 0;
             string chrom="";
-            chrom = chromosome.A1 + chromosome.A2 + chromosome.A3 + chromosome.A4 + chromosome.A5 + chromosome.A6;
-            chrom = chrom + chromosome.A7 + chromosome.A8 + chromosome.A9 + chromosome.A10 + chromosome.A11 + chromosome.A12;
-            chrom = chrom + chromosome.A13 + chromosome.A14 + chromosome.A15 + chromosome.A16;
-            while( i < 650){
-                fit = fit + checkAi(chrom,i);
-// BREAK en caso de tener varios
-//                if (fit > 0){
-//                    i = 650;
-//                }
+            Issue1Chromosome chromosome = (Issue1Chromosome) chromo;
+            int a = 0;
+            int tope = (chromosome.getLength() / 63);
+            while (i < matriz.Length){
+                a = 0;
+                while (a < tope){
+                    chrom = chromosome.A1[a] + chromosome.A2[a] + chromosome.A3[a] + chromosome.A4[a] + chromosome.A5[a] + chromosome.A6[a];
+                    chrom = chrom + chromosome.A7[a] + chromosome.A8[a] + chromosome.A9[a] + chromosome.A10[a] + chromosome.A11[a] + chromosome.A12[a];
+                    chrom = chrom + chromosome.A13[a] + chromosome.A14[a] + chromosome.A15[a] + chromosome.A16[a];
+                    if (checkAi(chrom, i))
+                    {
+                        fit = fit + 1;
+                        a = tope;
+                    }
+                    a = a + 1;
+                }
                 i = i + 1;
             }
-//            double n = 9;
-//            var x = (int)chromosome.GetGene(0).Value;
-//            var y = (int)chromosome.GetGene(1).Value;
-//            double f1 = System.Math.Pow(15 * x * y * (1 - x) * (1 - y) * System.Math.Sin(n * System.Math.PI * x) * System.Math.Sin(n * System.Math.PI * y), 2);
-
+            //Console.WriteLine(fit);
             return fit;
         }
 
-        private int checkAi(string chromosome, int i){
-            bool verdad = true;
+        public bool checkAi(string chromosome, int i){
             int j = 0;
-            while ((verdad)&(j< chromosome.Length)){
-                if ((matriz[i][j] == "1")&(chromosome[j] != "1")){
-                    verdad = false;
+            while (j< chromosome.Length){
+                if ((matriz[i][j] == '1')&(chromosome[j] != '1')){
+                    return false;
                 }
 
                 if (j == chromosome.Length-1){
-                    if ((matriz[i][j] == "0")&(chromosome[j] != "0")){
-                        verdad = false;
+                    if ((matriz[i][j] == '0')&(chromosome[j] != '0')){
+                        return false;
                     }
                 }
 
                 j = j+1;
             }
-            if (verdad) {
-                return 1;
-            }
-            return 0;
+            return true;
 
-        };
+        }
         #endregion
     }
 }

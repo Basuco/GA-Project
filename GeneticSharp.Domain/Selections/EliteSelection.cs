@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -21,6 +22,7 @@ namespace GeneticSharp.Domain.Selections
         /// </summary>
         public EliteSelection() : base(2)
         {
+            Console.WriteLine("HOLAAAAAAAAA");
         }
         #endregion
 
@@ -34,6 +36,7 @@ namespace GeneticSharp.Domain.Selections
         protected override IList<IChromosome> PerformSelectChromosomes(int number, Generation generation)
         {
             var ordered = generation.Chromosomes.OrderByDescending(c => c.Fitness);
+            Console.WriteLine("FITNES: " + ordered.Take(1).Fitness);
             return ordered.Take(number).ToList();
         }
 
